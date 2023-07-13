@@ -1,0 +1,76 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body
+{
+    
+    background-image:linear-gradient( rgb(109, 211, 245) ,rgb(252, 167, 181));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+}
+button{
+  border-radius: 42px;
+  background-color: lightblue;
+  width: 257px;
+  height:59px;
+ 
+}
+.heads{
+  text-shadow: 4px 4px aqua;
+}
+.func{
+  position: relative;
+  top:50px;
+  left:315px;
+}
+.heading{
+  text-align: center;
+}
+.class1{
+  position: relative;
+  top:50px;
+  left:370px;
+}
+.box{
+  border: 2px solid black;
+  background-color: aqua;
+  height:276px;
+  width:434px;
+  border-radius: 20px;
+}
+.ext{
+  text-align: center;
+}
+.boxone{
+  position:relative;
+  top:145px;
+  left:100px;
+}
+.boxtwo{
+  position: absolute;
+  top:245px;
+  left:575px;
+  background-color: purple;
+}
+.func:hover{
+  background-color: aqua;
+}
+.class1:hover{
+  background-color: aqua;
+}
