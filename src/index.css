@@ -18,11 +18,8 @@ code {
 }
 body
 {
-    
-    background-image:linear-gradient( rgb(109, 211, 245) ,rgb(252, 167, 181));
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:500px;
+  height: 626px;
+  background:linear-gradient(lightblue,pink,white);
 }
 button{
   border-radius: 42px;
@@ -41,6 +38,7 @@ button{
 }
 .heading{
   text-align: center;
+  padding:25px;
 }
 .class1{
   position: relative;
@@ -51,8 +49,9 @@ button{
   border: 2px solid black;
   background-color: aqua;
   height:276px;
-  width:434px;
-  border-radius: 20px;
+  width:497px;
+  border-radius: 30px;
+ 
 }
 .ext{
   text-align: center;
@@ -60,13 +59,13 @@ button{
 .boxone{
   position:relative;
   top:145px;
-  left:100px;
+  left:67px;
 }
 .boxtwo{
   position: absolute;
-  top:245px;
-  left:575px;
-  background-color: purple;
+  top:241px;
+  left:668px;
+  background-color: rgb(156, 65, 156);
 }
 .func:hover{
   background-color: aqua;
